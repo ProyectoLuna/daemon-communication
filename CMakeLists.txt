@@ -19,7 +19,7 @@ file(GLOB SOURCES
 )
 
 add_library(
-	daemon-comm.0.0.1
+	daemon-comm
 	SHARED
 	${SOURCES}
 )
@@ -28,7 +28,9 @@ TARGET_LINK_LIBRARIES(
 	daemon-comm
 )
 
+SET_TARGET_PROPERTIES(daemon-comm PROPERTIES VERSION 0.0.1 SOVERSION 1)
+
 ######## Install targets ########
-INSTALL(TARGETS daemon-comm.0.0.1
+INSTALL(TARGETS daemon-comm
 	 DESTINATION usr/bin
 )

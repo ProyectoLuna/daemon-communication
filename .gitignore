@@ -1,0 +1,10 @@
+
+\.cproject
+
+\.gdbinit
+
+\.project
+
+*.prefs
+
+daemon-communication_gdb_arm-poky-linux-gnueabi\.launch

@@ -8,3 +8,7 @@
 *.prefs
 
 daemon-communication_gdb_arm-poky-linux-gnueabi\.launch
+
+Debug/
+
+toolchain\.cmake
